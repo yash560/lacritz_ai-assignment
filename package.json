@@ -1,0 +1,33 @@
+{
+  "name": "parakeet-ai-desktop-prototype",
+  "version": "1.0.0",
+  "description": "Parakeet AI Inspired Desktop Prototype with Local STT Audio Capture & Progressive Streaming Ollama LLM",
+  "private": true,
+  "main": "electron-main.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.49.0",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "canvas-confetti": "^1.9.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
